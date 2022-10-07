@@ -13,10 +13,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+    font-family: sans-serif;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
 }
 
 /**
@@ -25,8 +29,9 @@ textarea {
  */
 
 button,
-input { /* 1 */
-  overflow: visible;
+input {
+    /* 1 */
+    overflow: visible;
 }
 
 /**
@@ -35,8 +40,9 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
-  text-transform: none;
+select {
+    /* 1 */
+    text-transform: none;
 }
 
 /**
@@ -46,10 +52,12 @@ select { /* 1 */
  */
 
 button,
-html [type="button"], /* 1 */
+html [type="button"],
+/* 1 */
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; /* 2 */
+    -webkit-appearance: button;
+    /* 2 */
 }
 
 /**
@@ -60,8 +68,8 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+    border-style: none;
+    padding: 0;
 }
 
 /**
@@ -72,7 +80,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText;
 }
 
 /**
@@ -80,9 +88,9 @@ button:-moz-focusring,
  */
 
 fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
 }
 
 /**
@@ -93,12 +101,18 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+    box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
 }
 
 /**
@@ -107,8 +121,10 @@ legend {
  */
 
 progress {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+    display: inline-block;
+    /* 1 */
+    vertical-align: baseline;
+    /* 2 */
 }
 
 /**
@@ -116,7 +132,7 @@ progress {
  */
 
 textarea {
-  overflow: auto;
+    overflow: auto;
 }
 
 /**
@@ -126,8 +142,10 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
 }
 
 /**
@@ -136,7 +154,7 @@ textarea {
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
+    height: auto;
 }
 
 /**
@@ -145,8 +163,10 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
 }
 
 /**
@@ -155,7 +175,7 @@ textarea {
 
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 /**
@@ -164,6 +184,8 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
 }
